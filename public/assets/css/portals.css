@@ -1,0 +1,117 @@
+.boxer {
+    padding: 124px 30px;
+    background-color: #3273dc;
+    color: #fff;
+}
+.info-list {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.info-list.title-space-md li {
+    padding-left: 160px;
+}
+.info-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 5px;
+}
+.info-list.title-space-md li .info-list-title {
+    width: 145px;
+}
+.info-list li .info-list-title {
+    font-weight: 500;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 105px;
+    color: #000066;
+}
+.info-list li .info-list-title:after {
+    content: ":";
+    position: absolute;
+    right: 0px;
+}
+.article-content ul li::before{
+content: "\f058";
+font-family: Font Awesome\ 5 Free;
+width: 10px;
+color: #000066;
+height: 10px;
+margin-right: 5px;
+}
+.article-content ul li{
+  list-style-type: none;
+}
+.panel {
+    border-radius: 0px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.page-title {
+    margin: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.p-t-30 {
+    padding-top: 30px !important;
+}
+.m-b-30 {
+    margin-bottom: 30px !important;
+}
+.navbar-brand img {
+	    max-height: 3.3rem;
+}
+.header .navbar-brand {
+	
+}
+.header {top: 0;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 1030;
+    height: 80px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);}
+
+ body.has-top-bar .wrapper {
+    padding-top: 80px;
+}
+.footer {
+	padding: 15px 0 !important;
+	background-color: #fff !important;
+	bottom: 0;
+	position: relative;
+	width: 100%;
+}
+.bd-navbar-nav {
+	margin-top: 5px !important;
+}
+.header .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+    color: #000066;
+}
+.button.is-link.is-outlined {
+    border: 1px solid #3273dc;
+    padding: 7px 14px;
+    line-height: 9px;
+    
+}
+.button.is-link.is-outlined:hover {
+    text-decoration: none;
+}
+.button {
+    padding: 3px 14px;
+    line-height: 24px;
+}
